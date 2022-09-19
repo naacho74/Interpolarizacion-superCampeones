@@ -1,0 +1,15 @@
+<app-menu></app-menu>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 mt-5 text-center" *ngFor="let personaje of personajes">
+            <img class="img-fluid w-100" src="{{personaje.foto}}" alt="foto" style="height:300px;width:300px; ;">
+            <h2>Nombre: {{personaje.nombre}}</h2>
+            <h4>Edad: {{personaje.edad}} Años</h4>
+
+        </div>
+    </div>
+</div>
+
+
